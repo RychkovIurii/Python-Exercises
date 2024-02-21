@@ -1,0 +1,5 @@
+Mc Cain 10
+Mc Cain 5
+Obama 9
+Obama 8
+Mc Cain 1

@@ -1,0 +1,7 @@
+h = int(input())
+a = int(input())
+b = int(input())
+n = 1 + (h - a) // (a - b) + ((h - a) % (a - b) + a - b - 1) // (a - b)
+# m = 1 + (h - b - 1) // (a - b) + ((h - a) % (a - b) + a - b - 1) // (a - b)
+print(n)
+# print(m)

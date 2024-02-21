@@ -1,0 +1,17 @@
+numList = list(map(int, input().split()))
+numList1 = numList.copy()
+numList2 = numList.copy()
+numList3 = numList.copy()
+min1 = min(numList)
+numList1.pop(numList.index(min1))
+min2 = min(numList1)
+max1 = max(numList)
+numList2.pop(numList.index(max1))
+max2 = max(numList2)
+numList3.pop(numList.index(max2))
+numList3.remove(max1)
+max3 = max(numList3)
+if max1 * max2 * max3 > min1 * min2 * max1:
+    print(max1, max2, max3)
+else:
+    print(min1, min2, max1)

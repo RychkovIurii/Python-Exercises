@@ -1,0 +1,5 @@
+s = str(input())
+x = s.find('h')
+y = s.rfind('h')
+z = s[x+1:y].replace('h', 'H')
+print(s[:x+1] + z + s[y:])
